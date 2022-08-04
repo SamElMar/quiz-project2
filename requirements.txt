@@ -6,3 +6,4 @@ wtforms
 pytest
 flask_testing
 pytest-cov
+gunicorn
