@@ -40,3 +40,5 @@ Results, allowing users to track their score and progress
 The relationships and the contents between the databases were slightly altered to allow for the app to function better. The Log In Information database initially only connected to the Quiz Allocation database although later a relationship was made with the Results database. Furthermore, some primary and foreign keys were added.
 
 # CI Pipeline
+
+![](TrelloBoardScreenShot.png)
