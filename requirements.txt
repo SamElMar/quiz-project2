@@ -7,3 +7,4 @@ pytest
 flask_testing
 pytest-cov
 gunicorn
+dataclasses==0.6
