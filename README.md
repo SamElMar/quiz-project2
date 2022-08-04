@@ -31,10 +31,12 @@ The databases used for the application were first designed using an ERD diagram 
 
 ![](ERD1screenshot.png)
 
-The tables include;
+The tables include:
 Log In Information, the purpose of which was to allow for users to create an account and store their data.
-Quiz Allocation, was used to allow for the questions to be assigned to each different user.
-Quiz Questions, Options and Answers, stores all of the different questions, options and answers created by the various users.
+Quiz Allocation, allowing for questions to be assigned to each different user.
+Quiz Questions, Options and Answers, to store of the different questions, options and answers created by the various users.
+Results, allowing users to track their score and progress
 
 The relationships and the contents between the databases were slightly altered to allow for the app to function better. The Log In Information database initially only connected to the Quiz Allocation database although later a relationship was made with the Results database. Furthermore, some primary and foreign keys were added.
 
+# CI Pipeline
