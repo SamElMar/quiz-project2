@@ -67,21 +67,30 @@ The severity of the risks was determined in order to find the risks which posed 
 
 The following risks did occur throughout the project; 'Setbacks occur, causing the schedule to be pushed back' and 'Testing reveals failures'. Because these risks were anticipated, the setbacks did not cause a significant delay to the project and the failures found throughout the testing were minor and quickly fixed.
 
-ADD RISK ASSESSMENT HERE
+![](RiskAsessment.png)
 
 # The Application
 The first page the user is taken to is the login page, where they are able to enter their forename, surname and username.
 
 ![](Login.png)
 
-Once a user has provided this infomation they will be taken to the create question, options and answers page.
+Once a user has provided their login infomation they will be taken to the create question, options and answers page. This page allows for the user to create any question they wish, provide an answer to the question and provide a series of options for a user to chose from,
 
 ![](CreatingQ.png)
 
-Once the question, options and answers has been created, the user will be redirected to the answer questions page, where they will be able to answer the question which had been created.
+Once the question, options and answers has been created, the user will be redirected to the answer questions page, where they will be able to answer the question which had been created from a drop down menu. Different questions can be answered by providing a different question id, each question has a respective question id.
 
 ![](AnsweringQ.png)
 
+If a user wishes to change their question and/or the respective options and answer they are able to through the update questions page. The user will be able to specify which question they want to alter by specifying the question id in the url.
+
+![](updatequestions.png)
+
+All of the questions created can be viewed the view questions page, as seen below.
+
+![](ViewingQ.png)
+
+Lastly the questions can be deleted, the delete function does not have a html page, although once a question is deleted the user will be redirected to the view questions page. To chose which question is to be deleted the question id number needs to be provided.
 
 
 # Testing
