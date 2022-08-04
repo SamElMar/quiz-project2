@@ -42,3 +42,5 @@ The relationships and the contents between the databases were slightly altered t
 # CI Pipeline
 
 ![](TrelloBoardScreenShot.png)
+
+![](CompletedChildIssues.png)
