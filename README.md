@@ -28,3 +28,7 @@ Delete the questions from within the database.
 
 
 The databases used for the application were first designed using ERD diagrams as seen below.
+
+![](ERD1screenshot.png)
+
+
