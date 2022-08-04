@@ -3,13 +3,21 @@ This repository consits of the code necessary to run a simple CRUD (create, read
 
 # Contents:
 Project Brief
+
 App Design
+
 CI Pipeline
+
 Risk Assessment
+
 Testing
+
 The Application
+
 Updates
+
 Known Issues
+
 Future Work
 
 # Project Brief:
@@ -40,7 +48,7 @@ Results, allowing users to track their score and progress
 The relationships and the contents between the databases were slightly altered to allow for the app to function better. The Log In Information database initially only connected to the Quiz Allocation database although later a relationship was made with the Results database. Furthermore, some primary and foreign keys were added.
 
 # CI Pipeline
-
+A user epic was devloped, consisting of series of user stories. This was done in order to better articulate what needed to be completed for the project to be deemed successful. These user stories were made up of child issues which broke down what needed to be done into specific tasks. 
 ![](TrelloBoardScreenShot.png)
 
 ![](CompletedChildIssues.png)
