@@ -70,4 +70,15 @@ The following risks did occur throughout the project; 'Setbacks occur, causing t
 ADD RISK ASSESSMENT HERE
 
 # Testing
-Unit testing was conducted in order to test the various functions within the app. 
+Unit testing was conducted in order to test the various functions within the app.
+Jenkins was used in order to automate the process, making it so that every time the code was pushed a new build would initiate. The finalised code was tested and proven to be successful as shown with the image below.
+
+![](JenkinsSuccessful.png)
+
+Jenkins also provided the percentage of the statements included within the tests. The tests concluded that 87% of the statements were included within the test. The reason for this was because not all of the routes were utilised in the application. Initially there was to be 8 routes which had different purposes. Instead 6 routes were utilised, these being the Login_page, create_questions_options_answers, view_questions, answer_question, update_questions and the delete_questions routes. These routes provided the neccessary CRUD functionality.
+
+![](JenkinsPercent.png)
+
+
+
+![](JenkinsPercent.png)
