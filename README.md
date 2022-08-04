@@ -4,9 +4,9 @@ This repository consits of the code necessary to run a simple CRUD (create, read
 # Contents:
 Project Brief
 
-App Design
+Task Allocation/Tracking
 
-CI Pipeline
+App Design
 
 Risk Assessment
 
@@ -22,6 +22,16 @@ Future Work
 
 # Project Brief:
 The scope of this project was to design a web application. It was required that the project be carefully planned, with the use of a Trello or Kanban board. The app needs to have a minimum of two relational databases to store data and have the data from one table interact with the other. This application needed to incorperate CRUD functionality, which allows for date to be created, read, updated and deleted. Additionally extensive testing is required in order to validate the application. The application is also required to have a functioning front-end website
+
+# Task Allocation/Tracking
+A Trello board was used to track the progress of the project, as part of this Trello board a user epic was devloped, consisting of series of user stories. This was done in order to better articulate what needed to be completed for the project to be deemed successful. These user stories were made up of child issues which broke down what needed to be done into specific tasks.
+
+The user stories were periodically moved from the backlog into a sprint based on what could be done within the given timeframes of the respective sprints. The tasks were moved around throughout the sprint board depending on their status, as seen below.
+
+![](TrelloBoardScreenShot.png)
+
+As seen below, all but two of the user stories were completed within the timeframe of the project. The reson why two were not completed is because they fell outsied of the scope of the project.
+![](CompletedChildIssues.png)
 
 # App Design:
 The appication which I chose to create was that of a quiz app. Through the app the user is able to:
@@ -49,14 +59,15 @@ Quiz Questions, Options and Answers, to store of the different questions, option
 
 Results, allowing users to track their score and progress
 
-
 The relationships and the contents between the databases were slightly altered to allow for the app to function better. The Log In Information database initially only connected to the Quiz Allocation database although later a relationship was made with the Results database. Furthermore, some primary and foreign keys were added.
 
-# CI Pipeline
-A Trello board was used to track the progress of the project, as part of this Trello board a user epic was devloped, consisting of series of user stories. This was done in order to better articulate what needed to be completed for the project to be deemed successful. These user stories were made up of child issues which broke down what needed to be done into specific tasks.
+# Risk Assessment:
+In order to identify any risks which could arrise throughout the project a risk assessment was conducted. By doing so problems could be predicted and mitigated through various actions. 
+The severity of the risks was determined in order to find the risks which posed the highest threat. This allowed for the largest risks to be prioritised.
 
-The user stories were periodically moved from the backlog into a sprint based on what could be done within the given timeframes of the respective sprints. The tasks were moved around throughout the sprint board depending on their status, as seen below.
-![](TrelloBoardScreenShot.png)
+The following risks did occur throughout the project; 'Setbacks occur, causing the schedule to be pushed back' and 'Testing reveals failures'. Because these risks were anticipated, the setbacks did not cause a significant delay to the project and the failures found throughout the testing were minor and quickly fixed.
 
-As seen below, all but two of the user stories were completed within the timeframe of the project. The reson why two were not completed is because they fell outsied of the scope of the project.
-![](CompletedChildIssues.png)
+ADD RISK ASSESSMENT HERE
+
+# Testing
+Unit testing was conducted in order to test the various functions within the app. 
