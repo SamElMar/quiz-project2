@@ -10,9 +10,9 @@ App Design
 
 Risk Assessment
 
-Testing
-
 The Application
+
+Testing
 
 Updates
 
@@ -69,6 +69,21 @@ The following risks did occur throughout the project; 'Setbacks occur, causing t
 
 ADD RISK ASSESSMENT HERE
 
+# The Application
+The first page the user is taken to is the login page, where they are able to enter their forename, surname and username.
+
+![](Login.png)
+
+Once a user has provided this infomation they will be taken to the create question, options and answers page.
+
+![](CreatingQ.png)
+
+Once the question, options and answers has been created, the user will be redirected to the answer questions page, where they will be able to answer the question which had been created.
+
+![](AnsweringQ.png)
+
+
+
 # Testing
 Unit testing was conducted in order to test the various functions within the app.
 Jenkins was used in order to automate the process, making it so that every time the code was pushed a new build would initiate. The finalised code was tested and proven to be successful as shown with the image below.
@@ -80,5 +95,3 @@ Jenkins also provided the percentage of the statements included within the tests
 ![](JenkinsPercent.png)
 
 
-
-![](JenkinsPercent.png)
