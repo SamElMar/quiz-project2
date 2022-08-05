@@ -66,6 +66,8 @@ The following risks did occur throughout the project; 'Setbacks occur, causing t
 ![](RiskAsessment.png)
 
 # The Application
+The application itself is created using flask. Flask is a micro web framework written in python, this framework makes the development of web applications simpler.
+
 The first page the user is taken to is the login page, where they are able to enter their forename, surname and username.
 
 ![](Login.png)
