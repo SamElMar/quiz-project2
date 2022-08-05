@@ -88,7 +88,6 @@ Jenkins was used in order to automate the process, making it so that every time 
 Jenkins also provided the percentage of the statements included within the tests. The tests concluded that 87% of the statements were included within the test and all passed testing. The reason for this was because not all of the routes were utilised in the application. Initially there was to be 8 routes which had different purposes. Instead 6 routes were utilised, these being the Login_page, create_questions_options_answers, view_questions, answer_question, update_questions and the delete_questions routes. These routes provided the neccessary CRUD functionality. The additional two routes could have been deleted and the test coverage would have greatly increased.
 
 ![](JenkinsPercent.png)
-
 # What Went Well
 * The application fully incorperates CRUD
 * Users can recieve a response when they input an option
