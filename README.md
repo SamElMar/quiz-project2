@@ -91,8 +91,9 @@ Jenkins also provided the percentage of the statements included within the tests
 # What Went Well
 * The application fully incorperates CRUD
 * Users can recieve a response when they input an option
-* Testing revieled that the application has good coverage.
+* Testing revieled that the application has good coverage
 
 # Even Better If
 * The web page presentation for answering the questions was improved, this could easily be done by adding line breaks and re-ordering the html file.
-* The users results could be tracked and compared to other users 
+* The users results could be tracked and compared to other users
+* When on the view questions page the entire question, answer and the options were presented
