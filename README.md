@@ -1,23 +1,8 @@
 # QA-DevOps-Fundamental-Project. Quiz app:
-This repository consits of the code necessary to run a simple CRUD (create, read, update and delete) Quiz application
+This repository consits of the code necessary to run a simple CRUD (create, read, update and delete) Quiz application.
 
-# Contents:
-Project Brief
-
-Task Allocation/Tracking
-
-App Design
-
-Risk Assessment
-
-The Application
-
-Testing
-
-Future Work
-
-# Project Brief:
-The scope of this project was to design a web application. It was required that the project be carefully planned, with the use of a Trello or Kanban board. The app needs to have a minimum of two relational databases to store data and have the data from one table interact with the other. This application needed to incorperate CRUD functionality, which allows for date to be created, read, updated and deleted. Additionally extensive testing is required in order to validate the application. The application is also required to have a functioning front-end website
+# Project Scope
+The scope of this project was to design a web application. It was required that the project be carefully planned, with the use of a Trello or Kanban board. The app needs to have a minimum of two relational databases to store data and have the data from one table interact with the other. This application needed to incorperate CRUD functionality, which allows for data to be created, read, updated and deleted. Additionally extensive testing is required in order to validate the application. The application is also required to have a functioning front-end website.
 
 # Task Allocation/Tracking
 A Trello board was used to track the progress of the project, as part of this Trello board a user epic was devloped, consisting of series of user stories. This was done in order to better articulate what needed to be completed for the project to be deemed successful. These user stories were made up of child issues which broke down what needed to be done into specific tasks.
@@ -26,19 +11,19 @@ The user stories were periodically moved from the backlog into a sprint based on
 
 ![](TrelloBoardScreenShot.png)
 
-As seen below, all but two of the user stories were completed within the timeframe of the project. The reson why two were not completed is because they fell outsied of the scope of the project.
+All but two of the user stories were completed within the timeframe of the project. The reson why two were not completed is because they fell outside of the scope of the project.
 ![](CompletedChildIssues.png)
 
-# App Design:
+# App Design
 The appication which I chose to create was that of a quiz app. Through the app the user is able to:
 
-Create their own questions, options and answers.
+* Create their own questions, options and answers.
 
-Read the questions which have been created and answer them by selecting one of the four options provided. Additionally they are able to read how many questions are present within the database.
+* Read the questions which have been created and answer them by selecting one of the four options provided. Additionally they are able to read how many questions are present within the database.
 
-Update the questions by choosing to change the question, answer and/or the various options.
+* Update the questions by choosing to change the question, answer and/or the various options.
 
-Delete the questions from within the database.
+* Delete the questions from within the database.
 
 
 The databases used for the application were first designed using an ERD diagram as seen below.
@@ -47,26 +32,29 @@ The databases used for the application were first designed using an ERD diagram 
 
 The tables include:
 
-Log In Information, the purpose of which was to allow for users to create an account and store their data.
+* Log In Information, the purpose of which was to allow for users to create an account and store their data.
 
-Quiz Allocation, allowing for questions to be assigned to each different user.
+* Quiz Allocation, allowing for questions to be assigned to each different user.
 
-Quiz Questions, Options and Answers, to store of the different questions, options and answers created by the various users.
+* Quiz Questions, Options and Answers, to store of the different questions, options and answers created by the various users.
 
-Results, allowing users to track their score and progress
+* Results, allowing users to track their score and progress
 
-The relationships and the contents between the databases were slightly altered to allow for the app to function better. The Log In Information database initially only connected to the Quiz Allocation database although later a relationship was made with the Results database. Furthermore, some primary and foreign keys were added.
+The relationships and the contents between the databases were slightly altered to allow for the app to function better. The Log In Information database initially only connected to the Quiz Allocation database although later a relationship was made with the Results database. Furthermore, some primary and foreign keys were added. Despite the Results databases being set-up, it was not utilised within the project because I was unable to find a way to store and track the users and their responses within the timeframe of the project. 
 
-# Risk Assessment:
+# Risk Assessment
 In order to identify any risks which could arrise throughout the project a risk assessment was conducted. By doing so problems could be predicted and mitigated through various actions. 
 The severity of the risks was determined in order to find the risks which posed the highest threat. This allowed for the largest risks to be prioritised.
 
-The following risks did occur throughout the project; 'Setbacks occur, causing the schedule to be pushed back' and 'Testing reveals failures'. Because these risks were anticipated, the setbacks did not cause a significant delay to the project and the failures found throughout the testing were minor and quickly fixed.
+The following risks did occur throughout the project; 'Setbacks occur, causing the schedule to be pushed back' and 'Testing reveals failures'. As these risks were anticipated, the setbacks did not cause a significant delay to the project and the failures found throughout the testing were minor and quickly fixed.
 
 ![](RiskAsessment.png)
 
+Throughout the project, as I learnt more about the process, I updated the risk assessment in order to keep it up to date.
+
 # The Application
-The application itself is created using flask. Flask is a micro web framework written in python, this framework provides the core functionality and makes the development of web applications simpler. The following web pages are designed using a layout which specifies the colour and the font of the html pages. The different web pages are specified by the end of the URL. A series of extentions were needed to provide additional functionality to the application, these extentions can be seen in the requirements.txt file.
+The application itself is created using flask. Flask is a micro web framework written in python, this framework provides the core functionality and makes the development of web applications simpler. Additional features were installed, allowing for different functions to be available.
+The following web pages are designed using html templates which provided the labels, the location of the text boxes and the layout which specifies the colour and the font of the html pages. The different web pages are specified by the end of the URL.
 
 The first page the user is taken to is the login page, where they are able to enter their forename, surname and username. The user is able to add their own information due to the form function.
 
@@ -97,8 +85,15 @@ Jenkins was used in order to automate the process, making it so that every time 
 
 ![](JenkinsSuccessful.png)
 
-Jenkins also provided the percentage of the statements included within the tests. The tests concluded that 87% of the statements were included within the test. The reason for this was because not all of the routes were utilised in the application. Initially there was to be 8 routes which had different purposes. Instead 6 routes were utilised, these being the Login_page, create_questions_options_answers, view_questions, answer_question, update_questions and the delete_questions routes. These routes provided the neccessary CRUD functionality.
+Jenkins also provided the percentage of the statements included within the tests. The tests concluded that 87% of the statements were included within the test and all passed testing. The reason for this was because not all of the routes were utilised in the application. Initially there was to be 8 routes which had different purposes. Instead 6 routes were utilised, these being the Login_page, create_questions_options_answers, view_questions, answer_question, update_questions and the delete_questions routes. These routes provided the neccessary CRUD functionality. The additional two routes could have been deleted and the test coverage would have greatly increased.
 
 ![](JenkinsPercent.png)
-# Future Work
-In the future I would like to incorporate various additional functions to the quiz. Mostly I would like for the quiz to incorperate a tracking feature, this would allow for the progress of users to be tracked, compiling the number of correct and incorrect answers. Through this users will be able to compare their scores with others. Another feature to add would be the ability for the user to catagorise their quiz questions.
+
+# What Went Well
+* The application fully incorperates CRUD
+* Users can recieve a response when they input an option
+* Testing revieled that the application has good coverage.
+
+# Even Better If
+* The web page presentation for answering the questions was improved, this could easily be done by adding line breaks and re-ordering the html file.
+* The users results could be tracked and compared to other users 
