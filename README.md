@@ -14,10 +14,6 @@ The Application
 
 Testing
 
-Updates
-
-Known Issues
-
 Future Work
 
 # Project Brief:
