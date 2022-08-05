@@ -66,13 +66,13 @@ The following risks did occur throughout the project; 'Setbacks occur, causing t
 ![](RiskAsessment.png)
 
 # The Application
-The application itself is created using flask. Flask is a micro web framework written in python, this framework makes the development of web applications simpler.
+The application itself is created using flask. Flask is a micro web framework written in python, this framework provides the core functionality and makes the development of web applications simpler. The following web pages are designed using a layout which specifies the colour and the font of the html pages. The different web pages are specified by the end of the URL. A series of extentions were needed to provide additional functionality to the application, these extentions can be seen in the requirements.txt file.
 
-The first page the user is taken to is the login page, where they are able to enter their forename, surname and username.
+The first page the user is taken to is the login page, where they are able to enter their forename, surname and username. The user is able to add their own information due to the form function.
 
 ![](Login.png)
 
-Once a user has provided their login infomation they will be taken to the create question, options and answers page. This page allows for the user to create any question they wish, provide an answer to the question and provide a series of options for a user to choose from,
+Once a user has provided their login infomation they will be taken to the create question, options and answers page. This page allows for the user to create any question they wish, provide an answer to the question and provide a series of options for a user to choose from. This page also utilises the form function, although, istead of passing a string field it passes a text area field. By doing so larger text boxes can be incorperated, making it easier for users to enter more text.
 
 ![](CreatingQ.png)
 
