@@ -72,7 +72,7 @@ The first page the user is taken to is the login page, where they are able to en
 
 ![](Login.png)
 
-Once a user has provided their login infomation they will be taken to the create question, options and answers page. This page allows for the user to create any question they wish, provide an answer to the question and provide a series of options for a user to chose from,
+Once a user has provided their login infomation they will be taken to the create question, options and answers page. This page allows for the user to create any question they wish, provide an answer to the question and provide a series of options for a user to choose from,
 
 ![](CreatingQ.png)
 
